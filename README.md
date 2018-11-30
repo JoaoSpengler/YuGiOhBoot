@@ -42,14 +42,14 @@ Output
 ```json
 [  
    {  
-      "id" : "1,
+      "id" : 1,
       "name" : "Dark Magician",
       "effect" : "",
       "type" : "",
       "attr" : ""
    },
    {  
-      "id" : "2",
+      "id" : 2,
       "name" : "Caribou",
       "effect" : "",
       "type" : "",
@@ -71,7 +71,7 @@ Output
 ```json
 [
     {  
-      "id" : "3",
+      "id" : 3,
       "name" : "Time mage",
       "effect" : "Time warp",
       "type" : "Monster",
@@ -84,7 +84,7 @@ Output
 ```json
 [
     {  
-      "id" : "3",
+      "id" : 3,
       "name" : "Time mage",
       "effect" : "Time warp",
       "type" : "Monster",
@@ -95,21 +95,21 @@ Output
 ### PUT ``/card/id``- Atualiza o registro de uma carta através do Id
 Input
 ```json
-{  
+[
     {  
-      "id" : "3",
+      "id" : 3,
       "name" : "Time mage",
       "effect" : "Time warp",
       "type" : 3,
       "attr" : 2
     }
-}
+]
 ```
 Output
 ```json
 [  
     {  
-      "id" : "3",
+      "id" : 3,
       "name" : "Time mage",
       "effect" : "Time warp",
       "type" : "Trap",
